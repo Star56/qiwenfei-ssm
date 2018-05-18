@@ -13,7 +13,7 @@ public class OrderDAO {
         orderInfo.setId(1L);
         orderInfo.setName("笔记本");
 
-        System.out.println(orderInfo);
+        System.out.println(orderInfo.getName());
 
     }
 }
