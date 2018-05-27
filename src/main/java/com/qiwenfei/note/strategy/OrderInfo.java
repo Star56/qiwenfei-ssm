@@ -7,6 +7,9 @@ import com.qiwenfei.note.strategy.payport.PayType;
  * sunshine
  *
  * 订单信息
+ *
+ * 策略模式：对方法，算法，实现方式的一种封装，只关心最后的结果
+ *
  */
 public class OrderInfo {
 
