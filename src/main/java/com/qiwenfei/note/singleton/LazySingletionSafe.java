@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 2018-05-17
  *懒汉式：静态内部类实现：线程安全
- * 内部类：在第一次使用的时候加载与示例化
+ * 内部类：在第一次使用的时候加载与实例化
  * sunshine
  */
 public class LazySingletionSafe implements Serializable {
