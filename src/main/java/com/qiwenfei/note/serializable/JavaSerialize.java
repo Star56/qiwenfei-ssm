@@ -1,4 +1,4 @@
-package serializable;
+package com.qiwenfei.note.serializable;
 
 import java.io.*;
 

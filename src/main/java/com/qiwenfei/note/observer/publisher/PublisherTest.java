@@ -13,6 +13,7 @@ import java.lang.reflect.Method;
  *  定义对象见一对一的依赖关系；一种对象被更新时，依赖于他的对象被通知到，并自动更新；
  * 将回调方法与执行方法建立对应关系，并解耦：
  * zookeeper的watcher,Listener;MQ的消息生产与消费模式
+ * 监听器、日志收集、短信通知、 邮件通知
  */
 public class PublisherTest {
 

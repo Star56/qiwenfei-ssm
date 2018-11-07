@@ -1,4 +1,4 @@
-package serializable;
+package com.qiwenfei.note.serializable;
 
 /**
  * 2018/6/5
