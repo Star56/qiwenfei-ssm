@@ -12,7 +12,7 @@ public class SingleTreadSafeTest {
 
     public static void main(String[] args) {
 
-        int num = 200;
+        int num = 2000;
         long start = System.currentTimeMillis();
         final CountDownLatch cdl = new CountDownLatch(num);
         for (int i = 0; i < num; i++) {

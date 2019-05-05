@@ -36,8 +36,9 @@ public class ProcessorTest {
         //此时，阻塞队列中所有的request都指向9
         //如果需要按顺序输出：则可以将对象的生成放在循环中，每次产生的对象都是不一样的，
         //每个对象的修改互不影响
-        Request  request = new Request() ;
-        for (int i = 0; i < 10; i++) {
+
+        for (int i = 0; i < 100; i++) {
+            Request  request = new Request() ;
             request.setName(i+"");
             processorTest.doProcess(request);
         }

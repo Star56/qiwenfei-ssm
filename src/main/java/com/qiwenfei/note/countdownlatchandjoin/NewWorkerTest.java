@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
  * 2018-05-20
  * sunshine
  */
-public class CountDownLatchTest {
+public class NewWorkerTest {
 
     private static CountDownLatch cdl ;
 
