@@ -3,6 +3,7 @@ package com.qiwenfei.note.jvm;
 /**
  * 2019/3/6
  * sunshine
+ * 方法分派模型
  */
 public class Test {
 
