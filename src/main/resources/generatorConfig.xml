@@ -50,7 +50,7 @@
 
         <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是
       实体类名-->
-        <table tableName="BUS_SHOP_ORDER_DETAIL" domainObjectName="ShopOrderDetail"
+        <table tableName="BUS_ORDERS" domainObjectName="ORDERS"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false"></table>
